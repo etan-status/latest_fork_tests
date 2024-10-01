@@ -72,9 +72,9 @@
         "_info": {
             "hash": "0x2509bf849c1218f41d58c215a475f70c87e885b494a7649f3e813d18fe38a48e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test different ext*code operations on a set-code address that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1142",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1294",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -158,9 +158,9 @@
         "_info": {
             "hash": "0xc9edea7b1c50fe736d457a8259f4cf55f63b59196f5f299f462ad25252f873b5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test different ext*code operations on a set-code address that delegates to itself.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1142",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1294",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }

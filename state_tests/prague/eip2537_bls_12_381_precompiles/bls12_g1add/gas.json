@@ -57,9 +57,9 @@
         "_info": {
             "hash": "0xfac9d87f533bd53bd38c31e149b29751c362d2529feec59e6f6aa4d831de7208",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test the BLS12_G1ADD precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g1add.py#L170",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g1add.py#L170",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -122,9 +122,9 @@
         "_info": {
             "hash": "0xeebcec6d85409fd73c8e1d4367453247bccaf8a7eff592a3e18876150d3067ec",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test the BLS12_G1ADD precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g1add.py#L170",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_g1add.py#L170",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }

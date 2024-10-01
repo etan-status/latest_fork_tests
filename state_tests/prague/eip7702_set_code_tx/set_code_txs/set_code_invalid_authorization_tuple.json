@@ -72,9 +72,9 @@
         "_info": {
             "hash": "0xe54d58ed9200779cd92240dc787437e2d090d8f4297d3b11014cafb3fac79ace",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test attempting to set the code of an account with invalid authorization tuple.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1825",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1977",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -152,9 +152,9 @@
         "_info": {
             "hash": "0xf2f699a72de2994086c7604b863efbf9ffc7d8cd020a2142873051167a7e1603",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test attempting to set the code of an account with invalid authorization tuple.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1825",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1977",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }
@@ -223,9 +223,9 @@
         "_info": {
             "hash": "0x788f21edf76141c5163c432ed5e485973960bc6914413e6eb27c20245222f5b2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test attempting to set the code of an account with invalid authorization tuple.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1825",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip7702_set_code_tx/test_set_code_txs.py#L1977",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md",
             "reference-spec-version": "a6bf54ffc1506ed00f8234731684ccfe935ec9a3"
         }

@@ -6,7 +6,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x5634bddf63514b1bc134f72d8d637f9bcaa7fcfbdbfbb37e226a52b60234351d",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -22,7 +22,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x6f0eb09ea3ec465809afb9b14bf17020a23864822c310811127d9b86060f742f"
+            "hash": "0x2aa47223f73d6e8fa7a9341d03bb7225ec0611d5889e9f3ad2945ba9a40eb7bb"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -187,12 +187,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x5b123b0b2a657a7ae3cc768bdcb96586c599a0c96ce1fc67297e81fd95da652e",
+        "lastblockhash": "0x6e32981561f4fa5e1893acc6d37b1efa770030e6cb47f096650908f5d935b714",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x6f0eb09ea3ec465809afb9b14bf17020a23864822c310811127d9b86060f742f",
+                        "parentHash": "0x2aa47223f73d6e8fa7a9341d03bb7225ec0611d5889e9f3ad2945ba9a40eb7bb",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0xd04e9df22db0b629dcddd989e57b97f03ea2b3a301e0a3cc504f790dbd92e6d3",
                         "receiptsRoot": "0xd98b3f88567c696d24865008929f3e2ffdca0ed87d81b01812a600fd3ee4d5c8",
@@ -206,9 +206,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x5b123b0b2a657a7ae3cc768bdcb96586c599a0c96ce1fc67297e81fd95da652e",
+                        "blockHash": "0x6e32981561f4fa5e1893acc6d37b1efa770030e6cb47f096650908f5d935b714",
                         "transactions": [
-                            "0xf90162800a8398987494000000000000000000000000000000000000100080b901000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a05945f4ac2b4d0e3040eb5b7473aeeb6cdceec63b6695dbf3b3b018f9f88bc2a1a012e77e347c6e3d67beb5a1e9dbbf141813fdc78ffa421a46732c06931115c826"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x989874",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x5945f4ac2b4d0e3040eb5b7473aeeb6cdceec63b6695dbf3b3b018f9f88bc2a112e77e347c6e3d67beb5a1e9dbbf141813fdc78ffa421a46732c06931115c82601"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -220,11 +236,11 @@
             }
         ],
         "_info": {
-            "hash": "0xad3b3b75f604e3987bb66a31f64e30754c8259e4b9cc10828c5b59f65964c42f",
+            "hash": "0x817c59d41f218cd94593e9b8f949f2463f7cf2e8d66adbe336aadfd9dc759a91",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -236,7 +252,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0xcad65ca31cd60fd44dafce7d07e3ca1d3d097d99c310b9477c40279be622f1ef",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -252,7 +268,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x9962de258f76d9acf7453009f3e0b052ef55ade069624eba4d2d8f509f43db13"
+            "hash": "0xb63bb4eba1a68d4b2cb8ddd0c92ca9c7d8193296aa1e5e616ffebd012e5701a6"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -417,12 +433,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xece3af1bdddb787414caec3cd5b31a611ed5b4d86da935d8bdaadc716041dd9e",
+        "lastblockhash": "0xf7c74125a8c9f1edc3284f614c20a51026fb0ccc07e5f2be53b8707333e8a5c4",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x9962de258f76d9acf7453009f3e0b052ef55ade069624eba4d2d8f509f43db13",
+                        "parentHash": "0xb63bb4eba1a68d4b2cb8ddd0c92ca9c7d8193296aa1e5e616ffebd012e5701a6",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x939841cec8f555d95f7963535e4bc010ff27d19f2aa8d363b54eec9401dbcc29",
                         "receiptsRoot": "0x8ea7b41697ae2469eca4b83a7bd6460262b6f9c98ac22189789541c2c402909f",
@@ -436,9 +452,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xece3af1bdddb787414caec3cd5b31a611ed5b4d86da935d8bdaadc716041dd9e",
+                        "blockHash": "0xf7c74125a8c9f1edc3284f614c20a51026fb0ccc07e5f2be53b8707333e8a5c4",
                         "transactions": [
-                            "0xf90101800a8398cec094000000000000000000000000000000000000100080b8a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a076c01b8359ef9363da56571dcd2d7dfcb57205815c041156e701bff088f969e0a05bd40d2bf5338684c202a3c07ce49ee43e66a097bc22c73d8dc6c98ec2ac04a5"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x98cec0",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x76c01b8359ef9363da56571dcd2d7dfcb57205815c041156e701bff088f969e05bd40d2bf5338684c202a3c07ce49ee43e66a097bc22c73d8dc6c98ec2ac04a501"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -450,11 +482,11 @@
             }
         ],
         "_info": {
-            "hash": "0x0146530afe8670a1fcd305bfaf2084d79b1a7166b1938cc8559cd19fcdd9fd9c",
+            "hash": "0xccc71b4d0f5ad8433d8be8dbf8219ee175f6d6e12a6e0582863b75b0d3f38920",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -466,7 +498,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x17c37406dc69a29e6e69190a2cd6116c04cae4b4d9334e999b5f84b35a723e52",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -482,7 +514,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x67d1e66a73340e76c3b838b99b98090e8a8add17dfbfca796b64087b805b64f9"
+            "hash": "0x13927c2f3122ebaa01c785563e36ac014da87921aa80773d6761c51b002d622b"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -647,12 +679,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x3e74828429dd8e8f00abe0f085d934906f1b30f4c406db039ff26561aadac3b3",
+        "lastblockhash": "0x83657f50845f5fe23b7933edbfd56a1f94653466f47bcd18188e348b74c7d1ee",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x67d1e66a73340e76c3b838b99b98090e8a8add17dfbfca796b64087b805b64f9",
+                        "parentHash": "0x13927c2f3122ebaa01c785563e36ac014da87921aa80773d6761c51b002d622b",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x85637cbed4cc74d75157cd762227ecf9fe0aad7b426acc5d884242661df4419b",
                         "receiptsRoot": "0x8ea7b41697ae2469eca4b83a7bd6460262b6f9c98ac22189789541c2c402909f",
@@ -666,9 +698,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x3e74828429dd8e8f00abe0f085d934906f1b30f4c406db039ff26561aadac3b3",
+                        "blockHash": "0x83657f50845f5fe23b7933edbfd56a1f94653466f47bcd18188e348b74c7d1ee",
                         "transactions": [
-                            "0xf90101800a8398c56094000000000000000000000000000000000000100080b8a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a07bcd4051f3b1ffedc6d4aeb61425b33b4dc34169f026df24f73183da795dfe78a00210189a028f6697c9ce8e76ad4f3f4f983546426d2c5c58a896d214e7a3a01b"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x98c560",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x7bcd4051f3b1ffedc6d4aeb61425b33b4dc34169f026df24f73183da795dfe780210189a028f6697c9ce8e76ad4f3f4f983546426d2c5c58a896d214e7a3a01b01"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -680,11 +728,11 @@
             }
         ],
         "_info": {
-            "hash": "0x14258c5b83663a3707eb98fab99e545e726b8d4ddb18e9429163a80a2e09c79f",
+            "hash": "0x7c9dad8c2ca7e23627f2ed0ef2d5feaeb1eb30cf49a9d508297bfa663b699055",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -696,7 +744,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x680f1687ab6991bd768d590c4266edf9b51f6c012fe603fac1227ba09e3d4615",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -712,7 +760,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0xa0dffdfa989ae23640fae550bd4e89d699e0b33ac61205412540445ac79a84b8"
+            "hash": "0xd96fa20b5bb83fdea3686854a76ce27440f1bf56920f3ee0f4de7a56186b97fa"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -877,12 +925,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x65f49a81ef11a99d0e2833c733e6e1c4005904119d1ca56ceb5ac98785c8bf07",
+        "lastblockhash": "0xcd84306d4105d3143bd6e474d76e4afc96cabbcefcfce29ce10c85ac570131dd",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0xa0dffdfa989ae23640fae550bd4e89d699e0b33ac61205412540445ac79a84b8",
+                        "parentHash": "0xd96fa20b5bb83fdea3686854a76ce27440f1bf56920f3ee0f4de7a56186b97fa",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x8ae401bbae0dcf4888540253361621854f3b835a57d3a283025785a4a61a8412",
                         "receiptsRoot": "0x95869bca2ae6af513cbfe6b486619ab9299bdd7036f4141be94cd388b4bf0e67",
@@ -896,9 +944,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x65f49a81ef11a99d0e2833c733e6e1c4005904119d1ca56ceb5ac98785c8bf07",
+                        "blockHash": "0xcd84306d4105d3143bd6e474d76e4afc96cabbcefcfce29ce10c85ac570131dd",
                         "transactions": [
-                            "0xf90262800a839899a094000000000000000000000000000000000000100080b90200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a01c6f3f88b8653ba4c7d00a911c57a8a291d728196ffd6203da6ea75b30c30197a04029f2eaadc3019534691138bc25ad57ea83471693558b41106707f8324b9b2d"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x9899a0",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x1c6f3f88b8653ba4c7d00a911c57a8a291d728196ffd6203da6ea75b30c301974029f2eaadc3019534691138bc25ad57ea83471693558b41106707f8324b9b2d01"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -910,11 +974,11 @@
             }
         ],
         "_info": {
-            "hash": "0x409f0c87fd18a0e31af9fa36c70f34405957b2ab6186c3a14ef7cde7f0ba4a69",
+            "hash": "0x2208fceee27f701c88ecfad3c125328774cb3add5915339d1c38cfd3de2e33d5",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -926,7 +990,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x66c3c8c529c11aaee8371eefc56991bbb6742a29188b0a2ad4cb79c53e2f3dc5",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -942,7 +1006,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x047496420b9315072292c53b3c31c8862de1032b0d696d164d41eeebc70ceb0f"
+            "hash": "0xb6959a6374110c2ac4cff913b8b7b95473c09ac59d0ae8834067a3010bcb5198"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -1107,12 +1171,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xed24feacfa3cd342108c29125806876fa5f17469013071f6b9e4da0e3ca1f0c7",
+        "lastblockhash": "0xb2b5b5731685a94070d46dd13196834a33ec2aceedc476bc7b6dfa52d764e957",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x047496420b9315072292c53b3c31c8862de1032b0d696d164d41eeebc70ceb0f",
+                        "parentHash": "0xb6959a6374110c2ac4cff913b8b7b95473c09ac59d0ae8834067a3010bcb5198",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x9207351d0b5eea29cc057b57756adf48908398c64c713120ac57af833cc698e1",
                         "receiptsRoot": "0x18709817fa7cf25c5c0b925b72ea01d67a7903c3d090e85917ba5890cdbe2c13",
@@ -1126,9 +1190,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xed24feacfa3cd342108c29125806876fa5f17469013071f6b9e4da0e3ca1f0c7",
+                        "blockHash": "0xb2b5b5731685a94070d46dd13196834a33ec2aceedc476bc7b6dfa52d764e957",
                         "transactions": [
-                            "0xf90182800a8399697094000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a068dc0a10987ead2e56f7bf16264739957faaef4424014fdadc50851373e53862a04f737fcd9499c1f523d4bebd4b969559e24e44e39ab51b6f722a2436a2981495"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x996970",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x68dc0a10987ead2e56f7bf16264739957faaef4424014fdadc50851373e538624f737fcd9499c1f523d4bebd4b969559e24e44e39ab51b6f722a2436a298149500"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -1140,11 +1220,11 @@
             }
         ],
         "_info": {
-            "hash": "0xda45086ac8de491cf2ec9dcc8e316320d70002e83fe8445148204bd355c45153",
+            "hash": "0xf549b854faf82af5b5e7da0fcf6c2a0846d6bfe08947ce614a7e4f8170686f9f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -1156,7 +1236,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x3eec4343a78669d0932a52e97a5fe715194d0c4be66ceedbb73895bd9c59fdfc",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -1172,7 +1252,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0xbb61f8f5ef78d051593c832c8e17c26261849ad3014260b0d9f124e8793895ef"
+            "hash": "0xe3c06e3d17a91124938ed09f19135559a0eb207017d8eca8b86fc2b35579bad9"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -1337,12 +1417,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x14423e09ff9eebeca646234721f7f6a43196f036cb116de96880e2fb565ef0b0",
+        "lastblockhash": "0x083c762ee3dc829a0950e6420223a517756460dece80a1980ccadb95ee5e5db2",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0xbb61f8f5ef78d051593c832c8e17c26261849ad3014260b0d9f124e8793895ef",
+                        "parentHash": "0xe3c06e3d17a91124938ed09f19135559a0eb207017d8eca8b86fc2b35579bad9",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x4df5b0acda156225d6ac818a70d2f7d46f1b002a23d4289a036d85f2e18f2ea2",
                         "receiptsRoot": "0x18709817fa7cf25c5c0b925b72ea01d67a7903c3d090e85917ba5890cdbe2c13",
@@ -1356,9 +1436,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x14423e09ff9eebeca646234721f7f6a43196f036cb116de96880e2fb565ef0b0",
+                        "blockHash": "0x083c762ee3dc829a0950e6420223a517756460dece80a1980ccadb95ee5e5db2",
                         "transactions": [
-                            "0xf90182800a8399464894000000000000000000000000000000000000100080b9012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a04c504dde9a56416555ac5db81aa2b0800dc8104340af80f9d0d686779fbed8e1a0192b94c91c26d5f13ca3ec18eaf33992d6e9f9f35c662fb6983e21131dfe9c9f"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x994648",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x4c504dde9a56416555ac5db81aa2b0800dc8104340af80f9d0d686779fbed8e1192b94c91c26d5f13ca3ec18eaf33992d6e9f9f35c662fb6983e21131dfe9c9f01"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -1370,11 +1466,11 @@
             }
         ],
         "_info": {
-            "hash": "0x8e8b0e55c05acf03a1be8ae7eefb0854fff95524d97842a00bc20650b5d0a0a1",
+            "hash": "0x93bc53106d432dbf53e13f6900cfd23f806f8fc5cc14c19168ed86aef0ff90d2",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -1386,7 +1482,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x1fcf29d468a6c044b93128e22883889f34e0072ad53f2bda7ef6c66471e48bcd",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -1402,7 +1498,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x6cb6df99d89e07a09dcacf054bb423343f7f0796c9968084d19c97c9fba06527"
+            "hash": "0xb16221e5d38518267fa3b54e3166f2af10dbf2fdee0584dfd1b1bfc500671ad5"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -1567,12 +1663,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xd25d193663641731ea2419cc81706936b1a776d05dabe9a54b40e3ae577d6be3",
+        "lastblockhash": "0x2f880db3f537ca78cd23c41679081243ecdb180abd5ecd640f062f5fba9aad69",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x6cb6df99d89e07a09dcacf054bb423343f7f0796c9968084d19c97c9fba06527",
+                        "parentHash": "0xb16221e5d38518267fa3b54e3166f2af10dbf2fdee0584dfd1b1bfc500671ad5",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0xf737dfcfd2abc2d35ea19a0718b7036408133fe8cfc17648095a48a58bbf8f50",
                         "receiptsRoot": "0xd51e16835c1e59dc99220e2c047e3ff8968c7428c077e028f80f119ebac00ca4",
@@ -1586,9 +1682,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xd25d193663641731ea2419cc81706936b1a776d05dabe9a54b40e3ae577d6be3",
+                        "blockHash": "0x2f880db3f537ca78cd23c41679081243ecdb180abd5ecd640f062f5fba9aad69",
                         "transactions": [
-                            "0xf901e2800a839a3c6094000000000000000000000000000000000000100080b9018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a094daf674a9129360f7df653d5869052a6a2ad369bd5c435fec1c3f3a8595405ba02e70ded966d77b0cb1174d8c44418a832bbd0deb14a7f304b0e83780a4e92c16"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x9a3c60",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x94daf674a9129360f7df653d5869052a6a2ad369bd5c435fec1c3f3a8595405b2e70ded966d77b0cb1174d8c44418a832bbd0deb14a7f304b0e83780a4e92c1601"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -1600,11 +1712,11 @@
             }
         ],
         "_info": {
-            "hash": "0xd99415244754646188829f51c6cd4972c255a7dc19597a2afd85dbbfab544b26",
+            "hash": "0x2923d0b28312ea282dad9f440e6292c8271ad6c60af8e49869b81ae8b0ac2cc9",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -1616,7 +1728,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x45754f55d3be849c85c0cc0c5578857b69b7ea230660ec0d26cc294641777318",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -1632,7 +1744,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x892eb0b2458a45417a56ddd57aa3396f9d2b86b0375dbc84430ade61f6ed34be"
+            "hash": "0xbe192194bec0e5fd2c0dee81fe565fc635448be05b746d77e37efeeb4e3aeed4"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -1797,12 +1909,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x3db7879db0855dd7d2926a34fd6d125d9b976f7350e630a01818949a0b1f9176",
+        "lastblockhash": "0x4232c2c228a706c6f36a94f98bec223417eb7f5fae8d4953432cbc5c2790094b",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x892eb0b2458a45417a56ddd57aa3396f9d2b86b0375dbc84430ade61f6ed34be",
+                        "parentHash": "0xbe192194bec0e5fd2c0dee81fe565fc635448be05b746d77e37efeeb4e3aeed4",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0xa472337a343dc2b71b456c30c92932cb31414bd8edd2782f0ee91be26eee5b85",
                         "receiptsRoot": "0x943459857cfc7072e8e5eaf5e107dfaf7d8c6632adf9cf48cbfeccbd46fb2240",
@@ -1816,9 +1928,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x3db7879db0855dd7d2926a34fd6d125d9b976f7350e630a01818949a0b1f9176",
+                        "blockHash": "0x4232c2c228a706c6f36a94f98bec223417eb7f5fae8d4953432cbc5c2790094b",
                         "transactions": [
-                            "0xf8a1800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b98a04b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d70"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x98abfc",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b984b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d7001"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -1830,11 +1958,11 @@
             }
         ],
         "_info": {
-            "hash": "0x2ec5a37bc00a80c62ccfa0e8f993f4747b977d879fa4e074b02281fb8c6fb192",
+            "hash": "0x3159302ccf3d81109e922c51eec5ee6233026939d5f309844be7f32586ad0a16",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -1846,7 +1974,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x06eb1c26cd8ca1b0985a828c2179fc47ecd00bc7512b590b003b6d14d0d78410",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -1862,7 +1990,7 @@
             "blobGasUsed": "0x00",
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "hash": "0x3e3462d8d88d3eb07ccb16c08c128dc68b924268124b84e797a97c43ddc15014"
+            "hash": "0x9007574356130f5c0c5d90213abcdef6720855cf4611a216635534e5228339c1"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -2027,12 +2155,12 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x411d8d2b12ae977b290790ae54974447bb27f1213336a9b21968eab079b65f5b",
+        "lastblockhash": "0xa8630b31404fa6e9626d2da75424ad0839383c65ae35a3f818faf986986d2838",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x3e3462d8d88d3eb07ccb16c08c128dc68b924268124b84e797a97c43ddc15014",
+                        "parentHash": "0x9007574356130f5c0c5d90213abcdef6720855cf4611a216635534e5228339c1",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
                         "stateRoot": "0x0ca5b87e48e519a189434a717c9ca07d1a9965ade1200289302c1fbdf0a38be8",
                         "receiptsRoot": "0x5d8f37bf6f2201a0405cded62ca0e9b1456a3d42a31402fdc156cee8d2ef98ed",
@@ -2046,9 +2174,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x411d8d2b12ae977b290790ae54974447bb27f1213336a9b21968eab079b65f5b",
+                        "blockHash": "0xa8630b31404fa6e9626d2da75424ad0839383c65ae35a3f818faf986986d2838",
                         "transactions": [
-                            "0xf8e1800a8399bb7894000000000000000000000000000000000000100080b880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000025a05b57b496e7f734884287bf51cfdbb2114fa38d8869d1303efa7e3e3949b7b1e4a07c43fd21dd29c3fa8212340f58df83653e390f5eb4af3886161e49de2f7f0f6b"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x99bb78",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x5b57b496e7f734884287bf51cfdbb2114fa38d8869d1303efa7e3e3949b7b1e47c43fd21dd29c3fa8212340f58df83653e390f5eb4af3886161e49de2f7f0f6b00"
+                                }
+                            }
                         ],
                         "withdrawals": []
                     },
@@ -2060,11 +2204,11 @@
             }
         ],
         "_info": {
-            "hash": "0x6ef63a3c3d3475ae297df08f39df078b8d7a5d9c0db45204f8e27d727ef571a1",
+            "hash": "0xd50d7e132aca73d6131e886b693f1bf2a98d8d2b42466c6c97e6b1e43949195f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test all BLS12 precompiles before the Prague hard fork is active.\n\n    The call must succeed but the output must be empty.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_precompiles_before_fork.py#L19",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }

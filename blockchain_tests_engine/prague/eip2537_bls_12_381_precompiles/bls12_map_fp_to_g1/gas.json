@@ -6,7 +6,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0x5e30b45d9f167a1575fbf47ccaf8fb587c77bea799b3624ad3abbf2937d0a368",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -23,7 +23,7 @@
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "requestsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-            "hash": "0x5ab1c481dd6f1ecc4203e83d08585f78817012f3eb3423d364abf35bb2838a29"
+            "hash": "0x5d6bb88c9c6300609a55216258d13ff3fe10eadbb7c39dc5ed8f86dbc6e229a7"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -157,7 +157,7 @@
                 "balance": "0x00",
                 "code": "0x3373fffffffffffffffffffffffffffffffffffffffe1460575767ffffffffffffffff5f3511605357600143035f3511604b575f35612000014311604b57611fff5f3516545f5260205ff35b5f5f5260205ff35b5f5ffd5b5f35611fff60014303165500",
                 "storage": {
-                    "0x00": "0x5ab1c481dd6f1ecc4203e83d08585f78817012f3eb3423d364abf35bb2838a29"
+                    "0x00": "0x5d6bb88c9c6300609a55216258d13ff3fe10eadbb7c39dc5ed8f86dbc6e229a7"
                 }
             },
             "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
@@ -191,14 +191,14 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0x257b3d3451ded64d37a7bafc6b39551be79aa4a743843d783d86b3102f40e969",
+        "lastblockhash": "0xc129e494edb58c4f8343c2cf33fe72a356d75581a4314868cea09e361449dd2f",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0x5ab1c481dd6f1ecc4203e83d08585f78817012f3eb3423d364abf35bb2838a29",
+                        "parentHash": "0x5d6bb88c9c6300609a55216258d13ff3fe10eadbb7c39dc5ed8f86dbc6e229a7",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0x736f1ca0fe42dc4e152852c3bc5a60f73920917e45de1c2545d6aec819333456",
+                        "stateRoot": "0x3f63c794c3ea984bfef4e7c9a2d897a81b6e8e68fb655c1f2d7944f7fe0e5c37",
                         "receiptsRoot": "0x376e687670c24f68c1e6988546de9a2dc6b417b09ec63afa85b76a2fc59fc40c",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -210,9 +210,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0x257b3d3451ded64d37a7bafc6b39551be79aa4a743843d783d86b3102f40e969",
+                        "blockHash": "0xc129e494edb58c4f8343c2cf33fe72a356d75581a4314868cea09e361449dd2f",
                         "transactions": [
-                            "0xf8a1800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b98a04b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d70"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x98abfc",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b984b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d7001"
+                                }
+                            }
                         ],
                         "withdrawals": [],
                         "depositRequests": [],
@@ -227,11 +243,11 @@
             }
         ],
         "_info": {
-            "hash": "0x17ef52bab11b8006d5fb66094fc4956492508ce62186727c8d9c76bbdad23fa1",
+            "hash": "0x5d188d328af2c1ff0ff924cd2b7e74ba5f01a0f2d4e3230de1cd9d3a343fb7fe",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test the BLS12_MAP_FP_TO_G1 precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
@@ -243,7 +259,7 @@
             "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
             "coinbase": "0x0000000000000000000000000000000000000000",
             "stateRoot": "0xbbb83871b78111e6b958e884bed6e9f4f7246a7128287d280d0ef9d9b07a8b07",
-            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "transactionsTrie": "0x7ffe241ea60187fdb0187bfa22de35d1f9bed7ab061d9401fd47e34a54fbede1",
             "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
             "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
             "difficulty": "0x00",
@@ -260,7 +276,7 @@
             "excessBlobGas": "0x00",
             "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "requestsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-            "hash": "0xf15d69455b09cd82d5b8a42cc2d24c4442ad5d664897aeb97a483d9edf8fcf97"
+            "hash": "0xf4935593c6755abd1906b041a07920e5a2839f93718860282b61987257eadae8"
         },
         "pre": {
             "0x00000000219ab540356cbb839cbe05303d7705fa": {
@@ -394,7 +410,7 @@
                 "balance": "0x00",
                 "code": "0x3373fffffffffffffffffffffffffffffffffffffffe1460575767ffffffffffffffff5f3511605357600143035f3511604b575f35612000014311604b57611fff5f3516545f5260205ff35b5f5f5260205ff35b5f5ffd5b5f35611fff60014303165500",
                 "storage": {
-                    "0x00": "0xf15d69455b09cd82d5b8a42cc2d24c4442ad5d664897aeb97a483d9edf8fcf97"
+                    "0x00": "0xf4935593c6755abd1906b041a07920e5a2839f93718860282b61987257eadae8"
                 }
             },
             "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
@@ -424,14 +440,14 @@
                 "storage": {}
             }
         },
-        "lastblockhash": "0xd1f548c06461535ed804aa5efb6bd324d0f8445b6e8ab3964ace298cf33c205b",
+        "lastblockhash": "0x408a8a464d8af4e35af4699e3bd8cad122b6595028bda09feeb9d4c4477b1439",
         "engineNewPayloads": [
             {
                 "params": [
                     {
-                        "parentHash": "0xf15d69455b09cd82d5b8a42cc2d24c4442ad5d664897aeb97a483d9edf8fcf97",
+                        "parentHash": "0xf4935593c6755abd1906b041a07920e5a2839f93718860282b61987257eadae8",
                         "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                        "stateRoot": "0xe2fa43183ab0f2c6bc5ede2ff2bf9eff9c53bce0fccab929de78f0d1aa719db0",
+                        "stateRoot": "0xc4f8e63434a4943e2362f0d4aaf261e5c94d0b71c0c199c9d1a9a9dc4ed18b2f",
                         "receiptsRoot": "0x84b78c9b3ea3b0dc1fe40f782388ff32f46f867fffbc23fefb321cf92c4b65cf",
                         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                         "blockNumber": "0x1",
@@ -443,9 +459,25 @@
                         "baseFeePerGas": "0x7",
                         "blobGasUsed": "0x0",
                         "excessBlobGas": "0x0",
-                        "blockHash": "0xd1f548c06461535ed804aa5efb6bd324d0f8445b6e8ab3964ace298cf33c205b",
+                        "blockHash": "0x408a8a464d8af4e35af4699e3bd8cad122b6595028bda09feeb9d4c4477b1439",
                         "transactions": [
-                            "0xf8a1800a8398abfc94000000000000000000000000000000000000100080b8400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000026a0807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b98a04b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d70"
+                            {
+                                "payload": {
+                                    "type": "0x00",
+                                    "chainId": "0x01",
+                                    "nonce": "0x00",
+                                    "maxFeesPerGas": {
+                                        "regular": "0x0a"
+                                    },
+                                    "gas": "0x98abfc",
+                                    "to": "0x0000000000000000000000000000000000001000",
+                                    "value": "0x00",
+                                    "input": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                                },
+                                "signature": {
+                                    "secp256k1": "0x807adbd2954fba3657079a76ae307843262a8101918d3c3be638378a403c7b984b4dc294989dddff565ccbe2db44aee6c29aa7102f4ada0f6c0905eafeda3d7001"
+                                }
+                            }
                         ],
                         "withdrawals": [],
                         "depositRequests": [],
@@ -460,11 +492,11 @@
             }
         ],
         "_info": {
-            "hash": "0xa9739278ff3b8eeee5f89b22ed65bcc80fe2b0d6b6d4532aa21f0bc353555241",
+            "hash": "0x969dcf263a25ade68448548ab3cbeab670ebd4e6188dfeb5a9eaceae102ee846",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "ethereumjs t8n v1",
+            "filling-transition-tool": "ethereum-spec-evm-resolver 0.0.1",
             "description": "Test function documentation:\n\n    Test the BLS12_MAP_FP_TO_G1 precompile gas requirements.",
-            "url": "https://github.com/ethereum/execution-spec-tests/blob/pectra-devnet-3@v1.5.0/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
+            "url": "https://github.com/ethereum/execution-spec-tests/blob/c36056735d71224100b62248bf2039381212ae2f/tests/prague/eip2537_bls_12_381_precompiles/test_bls12_map_fp_to_g1.py#L97",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2537.md",
             "reference-spec-version": "cd0f016ad0c4c68b8b1f5c502ef61ab9353b6e5e"
         }
